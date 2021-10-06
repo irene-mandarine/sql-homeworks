@@ -15,8 +15,8 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
-<!--    These are your database credentials. You do not need to change these.
-        Please follow README.MD instructions to create this user in the DB, before you can start flyway migration.-->
+        <!--    These are your database credentials. You do not need to change these.
+                Please follow README.MD instructions to create this user in the DB, before you can start flyway migration.-->
         <flyway-db.user>hr_migration</flyway-db.user>
         <flyway-db.password>hr_migration</flyway-db.password>
         <flyway-db.url>jdbc:oracle:thin:@//localhost:1521/PDB</flyway-db.url>
